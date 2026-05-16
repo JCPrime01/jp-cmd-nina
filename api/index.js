@@ -15,7 +15,7 @@ export default async function handler(req, res) {
     "https://chat.whatsapp.com/JhDM8UdeHQg8pxIm0ywl80",
     "https://chat.whatsapp.com/EafpD39fayIIyRjOCC6Pfk",
     "https://chat.whatsapp.com/BaFz3FnnxTb3Dbd9c3r7Wm",
-    "https://chat.whatsapp.com/IZNGcTD7uuq2M1cfB7FLlR",
+    "https://chat.whatsapp.com/KSJPKfTD7tvKAL0SrorOZp",
     "https://chat.whatsapp.com/HdxZGcDeTd0KKnLrvjLjHS",
   ];
   const link = links[Math.floor(Math.random() * links.length)];
