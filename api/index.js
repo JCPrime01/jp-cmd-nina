@@ -23,35 +23,39 @@ export default async function handler(req, res) {
   const START_DATE = new Date('2026-05-19T00:00:00-03:00'); // Dia 1 = 19/05
   const linksPorDia = {
     1: [
-      // João
-      'https://chat.whatsapp.com/G0WiEKvY0V5JUUVYwNQybh', // 11
-      'https://chat.whatsapp.com/FrZ2WDrA2xREEbM5jDkwqY', // 12
-      // Adriano
-      'https://chat.whatsapp.com/Bto8VAr36cvLgQPBgCHYX1', // 01
-      'https://chat.whatsapp.com/Il6k8YO0J467BnSa14LhZO', // 02
+      'https://chat.whatsapp.com/LeV1US5ilfJ8xftbXfeiqy', // CMD 100
+      'https://chat.whatsapp.com/D35nCeQKRnY84op3WkSvEj', // CMD 101
+      'https://chat.whatsapp.com/GRBtwpVjvLA6g22hjlzY5K', // CMD 102
+      'https://chat.whatsapp.com/EoLhmmeiQpGAHQ1yU9CW7A', // CMD 104
+      'https://chat.whatsapp.com/JhDM8UdeHQg8pxIm0ywl80', // CMD 105
     ],
     2: [
-      // João
-      'https://chat.whatsapp.com/JnbJMfDffrZDVUbNf4zNlu', // 14
-      'https://chat.whatsapp.com/CUjo7cUlPT26U6rtuJDbwo', // 20
-      // Adriano
-      'https://chat.whatsapp.com/KTIV7fmxxsGFEHns5p3zTq', // 03
-      'https://chat.whatsapp.com/Ho3DCgKIhztAi6902uqbCc', // 04
+      'https://chat.whatsapp.com/EafpD39fayIIyRjOCC6Pfk', // CMD 106
+      'https://chat.whatsapp.com/BaFz3FnnxTb3Dbd9c3r7Wm', // CMD 107
+      'https://chat.whatsapp.com/HdxZGcDeTd0KKnLrvjLjHS', // CMD 109
+      'https://chat.whatsapp.com/JQDDcywMnib23IM1j1fLeG', // CMD 110
+      'https://chat.whatsapp.com/GqijcctD6qOF6N0zlun3CK', // CMD 111
     ],
     3: [
-      // João
-      'https://chat.whatsapp.com/INddlJqtUvL4IXc2mpNIFn', // 15
-      'https://chat.whatsapp.com/LZpweYFPnRXBpAs06JSccW', // 16
-      // Adriano
-      'https://chat.whatsapp.com/HHdJVe1vYRzBNGxCV3n376', // 05
-      'https://chat.whatsapp.com/DZKrprJ2z4rL1TUnXqm1UM', // 06
+      'https://chat.whatsapp.com/Ft5yiEgZW74FS9fuhOBmKf', // CMD 115
+      'https://chat.whatsapp.com/Ea2p8OYZgt4DoWPwz3ZMlp', // CMD 116
+      'https://chat.whatsapp.com/JlriMPNhjfLEsBoDh6CcWx', // CMD 118
+      'https://chat.whatsapp.com/GOym7FDB1BFBQeX3Oor7uw', // CMD 119
+      'https://chat.whatsapp.com/G9eJEmWYYn6DBLYmC1dXWp', // CMD 120
+    ],
+    4: [
+      'https://chat.whatsapp.com/EzadtmN5alqFfcBHOgK8Ji', // CMD 121
+      'https://chat.whatsapp.com/HkD7oRVzxcKCGD6MkSSDRs', // CMD 122
+      'https://chat.whatsapp.com/B6Es7ZNDrMwDQlC0umX9r4', // CMD 123
+      'https://chat.whatsapp.com/JBrIq1ugFTYAw2yerGpSej', // CMD 124
+      'https://chat.whatsapp.com/FIP253VTKGW2Q76UIOL4wa', // CMD 125
     ],
   };
   // ─────────────────────────────────────────────────────────────
   const now = new Date();
   const diffMs = now - START_DATE;
   const diffDias = Math.floor(diffMs / (1000 * 60 * 60 * 24)) + 1;
-  // Cicla entre dia 1, 2, 3, 1, 2, 3...
+  // Cicla entre dia 1, 2, 3, 4, 1, 2, 3, 4...
   const totalDias = Object.keys(linksPorDia).length;
   const diaAtual = ((diffDias - 1) % totalDias) + 1;
   const links = linksPorDia[diaAtual];
