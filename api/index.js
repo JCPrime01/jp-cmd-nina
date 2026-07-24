@@ -23,7 +23,6 @@ export default async function handler(req, res) {
   const START_DATE = new Date('2026-05-19T00:00:00-03:00'); // Dia 1 = 19/05
   const linksPorDia = {
     1: [
-      'https://chat.whatsapp.com/LeV1US5ilfJ8xftbXfeiqy', // CMD 100
       'https://chat.whatsapp.com/D35nCeQKRnY84op3WkSvEj', // CMD 101
       'https://chat.whatsapp.com/GRBtwpVjvLA6g22hjlzY5K', // CMD 102
       'https://chat.whatsapp.com/EoLhmmeiQpGAHQ1yU9CW7A', // CMD 104
