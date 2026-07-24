@@ -29,7 +29,6 @@ export default async function handler(req, res) {
       'https://chat.whatsapp.com/JhDM8UdeHQg8pxIm0ywl80', // CMD 105
     ],
     2: [
-      'https://chat.whatsapp.com/EafpD39fayIIyRjOCC6Pfk', // CMD 106
       'https://chat.whatsapp.com/BaFz3FnnxTb3Dbd9c3r7Wm', // CMD 107
       'https://chat.whatsapp.com/HdxZGcDeTd0KKnLrvjLjHS', // CMD 109
       'https://chat.whatsapp.com/JQDDcywMnib23IM1j1fLeG', // CMD 110
