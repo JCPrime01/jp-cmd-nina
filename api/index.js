@@ -41,6 +41,7 @@ export default async function handler(req, res) {
 
       'https://chat.whatsapp.com/JBrIq1ugFTYAw2yerGpSej', // CMD 124
       'https://chat.whatsapp.com/FIP253VTKGW2Q76UIOL4wa', // CMD 125
+      'https://chat.whatsapp.com/IyNR7tLJ9Im5Sbh2vlCYvb?s=sh&p=i&mlu=0&amv=1', // CMD 130
     ],
   };
   // ─────────────────────────────────────────────────────────────
