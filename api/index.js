@@ -24,7 +24,6 @@ export default async function handler(req, res) {
   const linksPorDia = {
     1: [
       'https://chat.whatsapp.com/D35nCeQKRnY84op3WkSvEj', // CMD 101
-      'https://chat.whatsapp.com/GRBtwpVjvLA6g22hjlzY5K', // CMD 102
       'https://chat.whatsapp.com/EoLhmmeiQpGAHQ1yU9CW7A', // CMD 104
       'https://chat.whatsapp.com/JhDM8UdeHQg8pxIm0ywl80', // CMD 105
     ],
@@ -34,13 +33,12 @@ export default async function handler(req, res) {
       'https://chat.whatsapp.com/JQDDcywMnib23IM1j1fLeG', // CMD 110
     ],
     3: [
-      'https://chat.whatsapp.com/Ft5yiEgZW74FS9fuhOBmKf', // CMD 115
       'https://chat.whatsapp.com/JlriMPNhjfLEsBoDh6CcWx', // CMD 118
       'https://chat.whatsapp.com/GOym7FDB1BFBQeX3Oor7uw', // CMD 119
       'https://chat.whatsapp.com/G9eJEmWYYn6DBLYmC1dXWp', // CMD 120
     ],
     4: [
-      'https://chat.whatsapp.com/B6Es7ZNDrMwDQlC0umX9r4', // CMD 123
+
       'https://chat.whatsapp.com/JBrIq1ugFTYAw2yerGpSej', // CMD 124
       'https://chat.whatsapp.com/FIP253VTKGW2Q76UIOL4wa', // CMD 125
     ],
